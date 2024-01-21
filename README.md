@@ -13,7 +13,7 @@ This project, "Interactive Event Invitation," is a web-based invitation system f
 ## Installation
 To set up this project locally, follow these steps:
 
-git clone https://github.com/alexanderalexy/interactive-event-invite.githttps://github.com
+git clone 
 cd interactive-event-invitation
 
 
