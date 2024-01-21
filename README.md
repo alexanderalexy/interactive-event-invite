@@ -13,7 +13,7 @@ This project, "Interactive Event Invitation," is a web-based invitation system f
 ## Installation
 To set up this project locally, follow these steps:
 
-git clone https://github.com/your-username/interactive-event-invitation.git
+git clone https://github.com/alexanderalexy/interactive-event-invite.githttps://github.com
 cd interactive-event-invitation
 
 
@@ -27,4 +27,4 @@ Contributions to improve the Interactive Event Invitation are welcome. Please fo
 - Submit a pull request from your feature branch to the main branch.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
