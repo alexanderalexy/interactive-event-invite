@@ -1,0 +1,107 @@
+/* Basic reset for consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling with a professional grey background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style for body with potential full-page background image */
+body.full-background {
+    background: url('https://media.giphy.com/media/l2JHPB58MjfV8W3K0/giphy.gif') no-repeat center center fixed;
+    background-size: cover; /* Cover the entire viewport */
+    /* No need for the additional properties used earlier */
+}
+
+
+/* Styling for the header with a new background color */
+header {
+    
+    background-color: #f07167;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff; /* Salmon color for the title */
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+header h2 {
+    color: #ffffff; /* White color for the date */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Styling for the card containing the form and description */
+#rsvp-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* Placing the paragraph inside the card for a cohesive look */
+#rsvp-form p {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Styling for form elements */
+#rsvpForm label, #rsvpForm input, #rsvpForm select, #rsvpForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+#rsvpForm label{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#rsvpForm button {
+    background-color: #00afb9;  
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#rsvpForm button:hover {
+    background-color: #008b92; 
+}
+
+/* Style for the confirmation message section */
+#confirmation-message {
+    display: none; /* Initially hidden */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    max-width: 500px; /* Maximum width set to 500px */
+    margin-left: auto; /* These two margin properties center the element */
+    margin-right: auto;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+}
